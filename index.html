@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,16 @@
     <script src="script.js" defer></script>
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div id="nav-bar">
             <img class="logo" src="img/title.png" alt="Logo">
             <ul class="nav-barul">
                 <li class="botao-NavBar">Home</li>
-                <li class="botao-NavBar">Favoritos</li>
+                <li class="botao-NavBar">Favoritos <span class="favoritos-badge" style="display: none;">0</span></li>
             </ul>
+
         </div>
     </header>
     <div class="main">
@@ -24,8 +27,10 @@
         <input type="text" id="pegaPokemon" placeholder="Informe o nome do pokemon">
 
         <div class="pokemon-boxes">
-            
+            <!-- Barra de carregamento -->
+            <div class="loading"></div>
         </div>
     </div>
 </body>
+
 </html>
