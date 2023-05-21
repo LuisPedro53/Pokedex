@@ -211,7 +211,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  animation: progress 2s linear infinite;
+  animation: progress 3.5s linear infinite;
 }
 
 @keyframes progress {
